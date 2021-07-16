@@ -152,7 +152,6 @@ th {
     グローバル
 -------------------------*/
 .container {
-    max-width: 980px;
     margin: auto;
 }
 
@@ -163,7 +162,6 @@ th {
 }
 
 .gl-header {
-    height: 140px;
     background: linear-gradient(110deg, black 0%, rgba(27, 18, 18, .7) 70%, rgba(27, 18, 18, .8) 100%),
     url("../images/wood.jpg") 0 0 / cover repeat-x;
     background-blend-mode: hard-light;
@@ -179,8 +177,6 @@ th {
 }
 
 .logo {
-    width: 200px;
-    height: 65px;
     background: url("../images/logo.png") 0 0 / cover no-repeat;
 }
 
@@ -191,18 +187,11 @@ th {
 }
 
 .logo a {
-    display: block;
-    width: 200px;
-    height: 65px;
     text-indent: -9999px;
 }
 
 .gl-nav ul {
-    display: table;
-    list-style-type: none;
-    table-layout: fixed;
     margin-top: 15px;
-    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -212,7 +201,6 @@ th {
 }
 
 .gl-nav li {
-    display: table-cell;
     text-align: center;
     border-left: 2px solid #000;
 }
@@ -226,7 +214,6 @@ th {
 }
 
 .gl-nav li a {
-    display: block;
     color: #ccc;
     text-shadow: 0 0 5px #000;
 }
@@ -236,7 +223,6 @@ th {
 }
 
 .gl-footer {
-    height: 120px;
     color: #ccc;
     letter-spacing: .3em;
     text-align: center;
@@ -260,14 +246,6 @@ th {
     }
 }
 
-.top-news dl {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.top-news dt {
-    width: 18%;
-}
 
 @media screen and (max-width: 768px) {
     .top-news dt {
@@ -276,7 +254,6 @@ th {
 }
 
 .top-news dd {
-    width: 82%;
     border-bottom: 2px dotted #CCC;
 }
 
@@ -307,7 +284,6 @@ th {
 }
 
 .top-welcome {
-    height: 640px;
     background: url("../images/main.jpg") center top / cover no-repeat;
     box-shadow: inset 0 2px 5px #000;
     margin-bottom: 30px;
@@ -320,16 +296,8 @@ th {
     }
 }
 
-.top-parent {
-    position: relative;
-}
-
 .top-catch {
-    position: absolute;
-    top: 0;
-    left: -220px;
     padding: 50px 0 0 220px;
-    height: 640px;
     color: #eee;
     line-height: 2.4;
     letter-spacing: .3em;
@@ -347,30 +315,16 @@ th {
         background-position: center top;
         background-size: contain;
     }
-
-    .top-catch br {
-        display: none;
-    }
 }
 
 .top-catch h2 {
     font-size: 4.8rem;
 }
 
-.top-main {
-    width: 660px;
-    float: left;
-}
-
 @media screen and (max-width: 768px) {
     .top-main {
         width: 100%;
     }
-}
-
-.top-side {
-    width: 300px;
-    float: right;
 }
 
 @media screen and (max-width: 768px) {
@@ -387,7 +341,6 @@ th {
     box-shadow: 0 0 3px #ccc;
     padding: 20px 3px 20px 400px;
     margin-bottom: 30px;
-    height: 300px;
 }
 
 .top-time {
@@ -428,11 +381,6 @@ th {
     opacity: .7;
 }
 
-.top-order {
-    display: flex;
-    flex-direction: column;
-}
-
 /*-------------------------
     セカンド
 -------------------------*/
@@ -449,8 +397,6 @@ th {
     メニュー
 -------------------------*/
 .menus>ul {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 2px;
 }
 
@@ -474,7 +420,6 @@ th {
 }
 
 .menu {
-    position: relative;
     border: 1px solid #ccc;
     border-radius: 3px;
     box-shadow: 0 0 3px #ccc;
@@ -490,10 +435,6 @@ th {
 
 .menu::after {
     content: '';
-    display: block;
-    width: 450px;
-    height: 240px;
-    position: absolute;
     top: 20%;
     right: 5%;
     z-index: 10;
