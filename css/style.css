@@ -457,9 +457,7 @@ a[helf$="#other"]::after {
 }
 
 @media screen and (max-width: 768px) {
-        {
         .top-news margin-bottom: 30px;
-    }
 }
 
 .top-news dl {
@@ -483,10 +481,8 @@ a[helf$="#other"]::after {
 }
 
 @media screen and (max-width: 768px) {
-        {
         width: 70%;
-        border-bottom: 2px dotted #ccc;
-    }
+        border-bottom: 2px dotted #ccc ;
 }
 
 .top-news dd:first-of-type::after {
@@ -547,10 +543,9 @@ a[helf$="#other"]::after {
 
 
 @media screen and (max-width: 768px) {
-        {
         .menus>ul,
-        .menus>ul li a display: block;
-    }
+        .menus>ul li a
+        display: block;
 }
 
 
@@ -663,6 +658,4 @@ a[helf$="#other"]::after {
         letter-spacing: 2em;
         text-indent: 2em;
     }
-
-    width: 100%;
 }
